@@ -91,8 +91,7 @@ body {
   list-style: none;
   align-items: flex-start;
   justify-content: flex-start;
-
-  column-gap: 40px;
+  gap: 40px;
 }
 
 .nav-link {
@@ -120,7 +119,7 @@ body {
 
 .contacts-list {
   display: flex;
-  column-gap: 40px;
+  gap: 40px;
   align-items: center;
 }
 .contacts-link {
@@ -223,7 +222,7 @@ body {
   background-color: #f4f4fd;
   width: 1440px;
   height: 732px;
-  padding-top: 120px;
+  padding: 120px 0;
 }
 
 .about-team {
@@ -240,6 +239,7 @@ body {
   display: flex;
   gap: 24px;
   justify-content: center;
+  border-radius: 0px 0px 4px 4px;
 }
 
 .member-item {
@@ -279,6 +279,7 @@ body {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: #2e2f42;
+  margin-bottom: 72px;
 }
 
 .portfolio-list {
@@ -298,8 +299,9 @@ body {
 
 .portfolio-container {
   padding: 32px 16px;
-  border-top: none;
   border: 1px solid #e7e9fc;
+  margin-bottom: 8px;
+  border-top: none;
 }
 
 .portfolio-item {
