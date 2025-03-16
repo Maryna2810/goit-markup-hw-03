@@ -174,8 +174,7 @@ body {
 .benefits-section {
   width: 1128px;
   height: 104px;
-  padding-top: 120px;
-  padding-bottom: 60px;
+  padding: 120px 0;
 }
 
 .visually-hidden {
@@ -201,7 +200,6 @@ body {
 .subtitle-item {
   width: 264px;
   display: block;
-  width: calc((100% - 72px) / 4);
 }
 
 .subtitle-title {
@@ -226,7 +224,7 @@ body {
   background-color: #f4f4fd;
   width: 1440px;
   height: 732px;
-  padding-bottom: 120px;
+  padding: 120px 0;
 }
 
 .about-team {
