@@ -200,6 +200,7 @@ body {
 .subtitle-item {
   width: 264px;
   display: block;
+  width: calc((100% - 72px) / 4);
 }
 
 .subtitle-title {
