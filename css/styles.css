@@ -58,6 +58,7 @@ body {
 .header-nav {
   display: flex;
   align-items: center;
+  justify-content: space-between;
 }
 
 .logo {
@@ -90,7 +91,7 @@ body {
   margin: 0;
   list-style: none;
   align-items: flex-start;
-  justify-content: flex-start;
+  justify-content: space-between;
   gap: 40px;
 }
 
@@ -188,6 +189,10 @@ body {
   margin: -1px;
   border: 0;
   padding: 0;
+  white-space: nowrap;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  clip-path: inset(100%);
 }
 
 .subtitle-list {
@@ -200,6 +205,7 @@ body {
 .subtitle-item {
   width: 264px;
   display: block;
+  width: calc((100% - 72px) / 4);
 }
 
 .subtitle-title {
@@ -246,6 +252,7 @@ body {
 .member-item {
   background-color: #ffffff;
   text-align: center;
+  border-radius: 0px 0px 4px 4px;
 }
 
 .container-about-us {
@@ -281,7 +288,7 @@ body {
   text-transform: capitalize;
   color: #2e2f42;
 
-  margin-bottom: 72px;
+  margin-bottom: 8px;
 }
 
 .portfolio-list {
