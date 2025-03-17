@@ -77,9 +77,8 @@ body {
 }
 .logo-part {
   color: #f4f4fd;
-  width: 115px;
-  height: 24px;
-  padding-top: 100px;
+  font: 18px Raleway, sans-serif;
+  padding: 100px 0 0;
 }
 
 .nav-list {
@@ -111,7 +110,8 @@ body {
 
 .contacts {
   font-style: normal;
-  padding-left: 332px;
+  padding-left: 0 0 0 332px;
+  font: 16px Roboto, sans-serif;
 }
 
 .contacts-list {
@@ -143,6 +143,7 @@ body {
   max-width: 496px;
   justify-content: space-between;
   display: flex;
+  margin: 0 auto;
 }
 
 .btn-primary {
@@ -172,9 +173,7 @@ body {
 }
 
 .benefits-section {
-  width: 1128px;
-  height: 104px;
-  padding: 120px 0;
+  padding: 240px 0;
 }
 
 .visually-hidden {
@@ -194,7 +193,8 @@ body {
   display: flex;
   justify-content: center;
   gap: 24px;
-  padding-left: 156px;
+
+  padding: 152px 0;
 }
 
 .subtitle-item {
@@ -304,7 +304,7 @@ body {
 .portfolio-container {
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
-  margin-bottom: 8px;
+  margin: 0 0 8px;
   border-top: none;
 }
 
